@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/_5sdp">
+
+    <savyinfotech.com.product_phase_2.common.CustomTextview
+        android:id="@+id/row_fragment_language_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:textSize="@dimen/_13sdp"
+        android:text="English"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

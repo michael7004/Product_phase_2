@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GridView</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="TAG_EXIT_WARN_MSG">Are you sure you want to exit ?</string>
+    <string name="TAG_NO">NO</string>
+    <string name="TAG_YES">YES</string>
+
+
+    <!--Custom Component-->
+    <string name="font_open_sans_bold">OpenSans_Bold.ttf</string>
+    <string name="font_open_sans">OpenSans_Light.ttf</string>
+    <string name="msg_loading">Loading.....</string>
+    <string name="language_selection">Choose Language</string>
+</resources>

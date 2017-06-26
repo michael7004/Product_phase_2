@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "528482435479",
+    "firebase_url": "https://mydebt-dbbbf.firebaseio.com",
+    "project_id": "mydebt-dbbbf",
+    "storage_bucket": "mydebt-dbbbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528482435479:android:591787262747ed32",
+        "android_client_info": {
+          "package_name": "savyinfotech.com.product_phase_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528482435479-a2fe8184smrk7cgofguf2rjg1hqilms8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_tngTZ8WhI3K97VdyRvP_vNGtWlq5uuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_fragment_paper_rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        card_view:cardBackgroundColor="@color/colorWhite"
+        card_view:cardCornerRadius="@dimen/_3sdp"
+        card_view:cardElevation="@dimen/_3sdp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <savyinfotech.com.product_phase_2.common.SquareImageView
+                android:id="@+id/row_fragment_paper_tv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription=""
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <savyinfotech.com.product_phase_2.common.CustomTextview
+                android:id="@+id/row_fragment_paper_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_toRightOf="@+id/row_fragment_paper_tv_logo"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="@dimen/_2sdp"
+                android:text="Basic Tutorial fsfsfsfsfsf fsfsfsfsfsfsffsfsfsfsfsfsfsfsfsfsfsfsfsfsfsf"
+                android:textColor="@color/colorBlack" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

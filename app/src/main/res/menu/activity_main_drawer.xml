@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_ssc"
+            android:orderInCategory="200"
+            android:icon="@mipmap/ic_launcher"
+            android:title="SSC" />
+        <item
+            android:id="@+id/nav_hsc"
+            android:orderInCategory="200"
+            android:icon="@mipmap/ic_launcher"
+            android:title="HSC" />
+        <item
+            android:id="@+id/nav_download"
+            android:orderInCategory="200"
+            android:icon="@mipmap/ic_launcher"
+            android:title="My Download" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:orderInCategory="200"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_feed_back"
+            android:orderInCategory="200"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Feedback" />
+
+    </group>
+
+
+
+</menu>
